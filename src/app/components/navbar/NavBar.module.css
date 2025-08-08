@@ -1,0 +1,80 @@
+.navbar {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 3rem;
+
+  box-shadow: 0 4px 20px #0000000d;
+
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #f1eae3;
+}
+
+.logo a {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #3e2e2e;
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.5px;
+  transition: color 0.3s ease;
+}
+
+.logo a:hover {
+  color: #ca7b5c;
+}
+
+.links {
+  display: flex;
+  gap: 2.2rem;
+}
+
+.link {
+  position: relative;
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #5e4c3c;
+  font-family: "Inter", sans-serif;
+  padding: 6px 0;
+  transition: all 0.3s ease;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ca7b5c;
+  transition: width 0.3s;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+
+.link:hover {
+  color: #ca7b5c;
+}
+
+.logoutButton {
+  background-color: transparent;
+  border: 2px solid #ca7b5c;
+  color: #ca7b5c;
+  padding: 6px 16px;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-left: 1.5rem;
+}
+
+.logoutButton:hover {
+  background-color: #ca7b5c;
+  color: white;
+}

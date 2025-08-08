@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fffdfb;
+  color: #3e2e2e;
+  padding: 16px 0;
+  font-size: 0.9rem;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+}
+.footer-icons {
+  display: flex;
+  gap: 5px;
+}
