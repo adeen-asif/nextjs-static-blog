@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ByAdeen - Personal Blog Website
 
-## Getting Started
+Welcome to ByAdeen, a sleek and creative blog platform built using Next.js. This project reflects my journey in learning modern web development with a focus on React-based frameworks, design structure, and content layout.
 
-First, run the development server:
+Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+◉ Next.js:  Framework for React
+◉ CSS:  Global styling in a single file
+◉ JavaScript:  Functional components
+◉ HTML5:  Semantic and accessible layout
+◉ Image: Optimization  Using Next.js image support (via /public)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+◉ Stylish homepage with engaging content
+◉ Thoughtful layout and structured design
+◉ Static image usage with Next.js image handling
+◉ Clean, readable code – ideal for beginners
+◉ Organized folder structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Purpose
 
-## Learn More
+This project was created as part of my learning journey with Next.js. It helped me:
+◉ Understand routing in Next.js
+◉ Use the Head component to manage page titles
+◉ Work with the /public directory for images
+◉ Implement simple styling using a centralized global.css file
 
-To learn more about Next.js, take a look at the following resources:
+Project Status
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+◉ Currently static
+◉ Not fully responsive
+◉ No backend integration
+This is a learning-focused project and intentionally kept simple to better grasp core concepts.
